@@ -4,17 +4,16 @@ import { CgCPlusPlus } from "react-icons/cg";
 import {
   DiJavascript1,
   DiReact,
-  DiNodejs,
   DiMysql,
   DiPython,
   DiGit,
   DiJava,
 } from "react-icons/di";
 import {
-  SiRedis,
+  SiFlutter,
   SiFirebase,
   SiNextdotjs,
-  SiPostgresql,
+
 } from "react-icons/si";
 
 
@@ -28,7 +27,7 @@ function Techstack() {
         <DiJavascript1 />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiNodejs />
+        <SiFlutter />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiReact />
