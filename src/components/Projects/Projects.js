@@ -46,6 +46,70 @@ function Projects() {
             />
           </Col>
 
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={sparx}
+              isBlog={false}
+              title="SparX"
+              description="The parking management system mobile application that is connected to IoT tools is built with the Flutter framework. It has features such as parking slots available in the form of floor plans and visitor density graphs, etc."
+              ghLink="https://github.com/Fahrizal0112/Parkol-ParkirOnline.git"
+              /* demoLink="https://chatify-49.web.app/" */
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={eksam}
+              isBlog={false}
+              title="Eksam Apps"
+              description="Application for Tryout, Tutoring and Online Class Providers in preparation for CPNS, Kedinasan, BUMN, PPPK and PPG tests"
+              //ghLink="https://github.com/soumyajit4419/Bits-0f-C0de"
+              //demoLink="https://blogs.soumya-jit.tech/"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={sparx}
+              isBlog={false}
+              title="SparX"
+              description="The parking management system mobile application that is connected to IoT tools is built with the Flutter framework. It has features such as parking slots available in the form of floor plans and visitor density graphs, etc."
+              ghLink="https://github.com/Fahrizal0112/Parkol-ParkirOnline.git"
+              /* demoLink="https://chatify-49.web.app/" */
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={eksam}
+              isBlog={false}
+              title="Eksam Apps"
+              description="Application for Tryout, Tutoring and Online Class Providers in preparation for CPNS, Kedinasan, BUMN, PPPK and PPG tests"
+              //ghLink="https://github.com/soumyajit4419/Bits-0f-C0de"
+              //demoLink="https://blogs.soumya-jit.tech/"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={sparx}
+              isBlog={false}
+              title="SparX"
+              description="The parking management system mobile application that is connected to IoT tools is built with the Flutter framework. It has features such as parking slots available in the form of floor plans and visitor density graphs, etc."
+              ghLink="https://github.com/Fahrizal0112/Parkol-ParkirOnline.git"
+              /* demoLink="https://chatify-49.web.app/" */
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={eksam}
+              isBlog={false}
+              title="Eksam Apps"
+              description="Application for Tryout, Tutoring and Online Class Providers in preparation for CPNS, Kedinasan, BUMN, PPPK and PPG tests"
+              //ghLink="https://github.com/soumyajit4419/Bits-0f-C0de"
+              //demoLink="https://blogs.soumya-jit.tech/"
+            />
+          </Col>
+
          {/*  <Col md={4} className="project-card">
             <ProjectCard
               imgPath={editor}
