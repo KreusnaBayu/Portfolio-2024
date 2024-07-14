@@ -2,13 +2,12 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-import leaf from "../../Assets/Projects/leaf.png";
-import emotion from "../../Assets/Projects/emotion.png";
-import editor from "../../Assets/Projects/codeEditor.png";
-import suicide from "../../Assets/Projects/suicide.png";
-import bitsOfCode from "../../Assets/Projects/blog.png";
 import sparx from "../../Assets/Projects/sparx.png";
 import eksam from "../../Assets/Projects/eksam.png";
+import jbstore from "../../Assets/Projects/Jb.png";
+import acourse from "../../Assets/Projects/acourse.png";
+import gereja from "../../Assets/Projects/gereja.png";
+
 
 
 
@@ -31,129 +30,58 @@ function Projects() {
               title="SparX"
               description="The parking management system mobile application that is connected to IoT tools is built with the Flutter framework. It has features such as parking slots available in the form of floor plans and visitor density graphs, etc."
               ghLink="https://github.com/Fahrizal0112/Parkol-ParkirOnline.git"
-              /* demoLink="https://chatify-49.web.app/" */
+              demoLink="https://drive.google.com/file/d/1VZdU5ebK-pziwKnL34CsuqEE1GhWyTQ8/view?usp=drive_link"
+            />
+          </Col>
+
+           <Col md={4} className="project-card">
+        <ProjectCard
+          imgPath={eksam}
+          isBlog={false}
+          title="Eksam Apps"
+          description="Application for Tryout, Tutoring and Online Class Providers in preparation for CPNS, Kedinasan, BUMN, PPPK and PPG tests"
+          appStoreLink="https://apps.apple.com/id/app/eksam-cpns-pppk-bumn-ppg/id6476313590"
+          playStoreLink="https://play.google.com/store/apps/details?id=com.id.eksam "
+          // ghLink="https://github.com/soumyajit4419/Bits-0f-C0de"
+          // demoLink="https://blogs.soumya-jit.tech/"
+        />
+      </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={jbstore}
+              isBlog={false}
+              title="JBStore"
+              description="Application designed to help the online shopping process with a user interface design that is easy to use and features that can help the shopping process go faster
+Framework : Flutter"
+              ghLink="https://github.com/salsabilafnp/ecom_group2"
+              demoLink="https://drive.google.com/file/d/1ggOA1ASuZ4IugkXz78BW-XTofeS2TjIX/view"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={eksam}
+              imgPath={acourse}
               isBlog={false}
-              title="Eksam Apps"
-              description="Application for Tryout, Tutoring and Online Class Providers in preparation for CPNS, Kedinasan, BUMN, PPPK and PPG tests"
-              //ghLink="https://github.com/soumyajit4419/Bits-0f-C0de"
-              //demoLink="https://blogs.soumya-jit.tech/"
-            />
-          </Col>
-
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={sparx}
-              isBlog={false}
-              title="SparX"
-              description="The parking management system mobile application that is connected to IoT tools is built with the Flutter framework. It has features such as parking slots available in the form of floor plans and visitor density graphs, etc."
-              ghLink="https://github.com/Fahrizal0112/Parkol-ParkirOnline.git"
-              /* demoLink="https://chatify-49.web.app/" */
-            />
-          </Col>
-
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={eksam}
-              isBlog={false}
-              title="Eksam Apps"
-              description="Application for Tryout, Tutoring and Online Class Providers in preparation for CPNS, Kedinasan, BUMN, PPPK and PPG tests"
-              //ghLink="https://github.com/soumyajit4419/Bits-0f-C0de"
-              //demoLink="https://blogs.soumya-jit.tech/"
-            />
-          </Col>
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={sparx}
-              isBlog={false}
-              title="SparX"
-              description="The parking management system mobile application that is connected to IoT tools is built with the Flutter framework. It has features such as parking slots available in the form of floor plans and visitor density graphs, etc."
-              ghLink="https://github.com/Fahrizal0112/Parkol-ParkirOnline.git"
-              /* demoLink="https://chatify-49.web.app/" */
-            />
-          </Col>
-
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={eksam}
-              isBlog={false}
-              title="Eksam Apps"
-              description="Application for Tryout, Tutoring and Online Class Providers in preparation for CPNS, Kedinasan, BUMN, PPPK and PPG tests"
-              //ghLink="https://github.com/soumyajit4419/Bits-0f-C0de"
+              title="Online course"
+              description="This project was built to hone my skills in UI slicing using Flutter so that the data used only comes from the Frontend"
+              ghLink="https://github.com/KreusnaBayu/Online-Course"
               //demoLink="https://blogs.soumya-jit.tech/"
             />
           </Col>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={sparx}
+              imgPath={gereja}
               isBlog={false}
-              title="SparX"
-              description="The parking management system mobile application that is connected to IoT tools is built with the Flutter framework. It has features such as parking slots available in the form of floor plans and visitor density graphs, etc."
-              ghLink="https://github.com/Fahrizal0112/Parkol-ParkirOnline.git"
+              title="Website GPIB EFATA"
+              description="This website is an information system regarding the EFATA West Indonesian Protestant Church which is located in Batujajar and has several features such as Congregation News and Prayer Messages"
+              ghLink=""
               /* demoLink="https://chatify-49.web.app/" */
             />
           </Col>
 
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={eksam}
-              isBlog={false}
-              title="Eksam Apps"
-              description="Application for Tryout, Tutoring and Online Class Providers in preparation for CPNS, Kedinasan, BUMN, PPPK and PPG tests"
-              //ghLink="https://github.com/soumyajit4419/Bits-0f-C0de"
-              //demoLink="https://blogs.soumya-jit.tech/"
-            />
-          </Col>
-
-         {/*  <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={editor}
-              isBlog={false}
-              title="Editor.io"
-              description="Online code and markdown editor build with react.js. Online Editor which supports html, css, and js code with instant view of website. Online markdown editor for building README file which supports GFM, Custom Html tags with toolbar and instant preview.Both the editor supports auto save of work using Local Storage"
-              ghLink="https://github.com/soumyajit4419/Editor.io"
-              demoLink="https://editor.soumya-jit.tech/"              
-            />
-          </Col>
-
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={leaf}
-              isBlog={false}
-              title="Plant AI"
-              description="Used the plant disease dataset from Kaggle and trained a image classifer model using 'PyTorch' framework using CNN and Transfer Learning with 38 classes of various plant leaves. The model was successfully able to detect diseased and healthy leaves of 14 unique plants. I was able to achieve an accuracy of 98% by using Resnet34 pretrained model."
-              ghLink="https://github.com/soumyajit4419/Plant_AI"
-              demoLink="https://plant49-ai.herokuapp.com/"
-            />
-          </Col>
-
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={suicide}
-              isBlog={false}
-              title="Ai For Social Good"
-              description="Using 'Natural Launguage Processing' for the detection of suicide-related posts and user's suicide ideation in cyberspace  and thus helping in sucide prevention."
-              ghLink="https://github.com/soumyajit4419/AI_For_Social_Good"
-              // demoLink="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" <--------Please include a demo link here
-            />
-          </Col>
-
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={emotion}
-              isBlog={false}
-              title="Face Recognition and Emotion Detection"
-              description="Trained a CNN classifier using 'FER-2013 dataset' with Keras and tensorflow backened. The classifier sucessfully predicted the various types of emotions of human. And the highest accuracy obtained with the model was 60.1%.
-              Then used Open-CV to detect the face in an image and then pass the face to the classifer to predict the emotion of a person."
-              ghLink="https://github.com/soumyajit4419/Face_And_Emotion_Detection"
-              // demoLink="https://blogs.soumya-jit.tech/"      <--------Please include a demo link here 
-            />
-          </Col> */}
+         
+         
         </Row>
       </Container>
     </Container>
