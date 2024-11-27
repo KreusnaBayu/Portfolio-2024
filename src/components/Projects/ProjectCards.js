@@ -57,6 +57,19 @@ function ProjectCards(props) {
             {"Play Store"}
           </Button>
         )}
+
+        {/* Add a new button for website link */}
+        {props.websiteLink && (
+          <Button
+            variant="primary"
+            href={props.websiteLink}
+            target="_blank"
+            style={{ marginLeft: "10px" }}
+          >
+            <CgWebsite /> &nbsp;
+            {"Website"}
+          </Button>
+        )}
       </Card.Body>
     </Card>
   );

@@ -6,7 +6,7 @@ import sparx from "../../Assets/Projects/sparx.png";
 import eksam from "../../Assets/Projects/eksam.png";
 import jbstore from "../../Assets/Projects/Jb.png";
 import acourse from "../../Assets/Projects/acourse.png";
-import gereja from "../../Assets/Projects/gereja.png";
+import kontenkilat from "../../Assets/Projects/kontenkilat.png";
 
 
 
@@ -71,11 +71,11 @@ Framework : Flutter"
           </Col>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={gereja}
-              isBlog={false}
-              title="Website GPIB EFATA"
-              description="This website is an information system regarding the EFATA West Indonesian Protestant Church which is located in Batujajar and has several features such as Congregation News and Prayer Messages"
-              ghLink=""
+              imgPath={kontenkilat}
+              isBlog={true}
+              title="Kontenkilat.id"
+              description="An application that makes it easy for you to find prompt ideas for marketing your product"
+              websiteLink="https://kontenkilat.id/"
               /* demoLink="https://chatify-49.web.app/" */
             />
           </Col>
